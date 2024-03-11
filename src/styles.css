@@ -1,0 +1,97 @@
+/**************************/
+/* GENERAL */
+/**************************/
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /* font-family: "Inter", sans-serif; */
+
+  color: var(--black-color);
+  line-height: 1.5;
+
+  background-color: var(--main-bg-color);
+
+}
+
+:root {
+  --fs-big-title: 4.8rem;
+  --fs-mid-title: 4rem;
+  --fs-title: 3.2rem;
+  --fs-subtitle: 2.4rem;
+
+  --fs-big-text: 2.2rem;
+  --fs-mid-text: 1.8rem;
+
+  --fs-mid-small-text: 1.6rem;
+  --fs-small-text: 1.4rem;
+  --fs-small-small-text: 1.2rem;
+
+  --white-color: #fafafa;
+  --main-color: #192444;
+  --black-color: #2d2d2d;
+
+  --main-border-color: rgba(95, 99, 104, 0.5);
+
+  --main-border-radius: 1.4rem;
+  --sec-border-radius: 1rem;
+  --main-border: 1px solid var(--main-border-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "sans-serif";
+}
+
+
+.bg-main-color {
+  background-color: var(--main-color);
+}
+
+
+
+
+
+/**************************/
+/* BELOW 1344px /smaller desktops */
+/**************************/
+@media (max-width: 84em) {}
+
+/**************************/
+/* BELOW 1200px /landscape tablets */
+/**************************/
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
+}
+
+/**************************/
+/* BELOW 940px /  tablets */
+/**************************/
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px */
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 700px /  smaller tablets */
+/**************************/
+@media (max-width: 44em) {}
+
+/**************************/
+/* BELOW 544px /  phones */
+/**************************/
+@media (max-width: 34em) {}
+
+/**************************/
+/* BELOW 375px /  phones */
+/**************************/
+@media (max-width: 23em) {}

@@ -1,0 +1,39 @@
+.box-dropdown {
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.my-dropdown {
+    color: var(--white-color);
+    padding: 2.5px 5px;
+    border-radius: 8px;
+    /* width: 100px; */
+
+}
+
+.my-dropdown button {
+    font-size: var(--fs-mid-small-text)
+}
+
+.box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.box-text p {
+    /* background-color: yellowgreen; */
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.box-text .item {
+    padding-left: 6px;
+    font-weight: 900;
+}

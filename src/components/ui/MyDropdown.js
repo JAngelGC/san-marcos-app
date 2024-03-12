@@ -19,7 +19,7 @@ const MyDropdown = (props) => {
             <Dropdown.Menu>
 
                 {props.arr.map((item) => {
-                    return <Dropdown.Item eventKey={item}>{item}</Dropdown.Item>
+                    return <Dropdown.Item key={item} eventKey={item}>{item}</Dropdown.Item>
                 })}
             </Dropdown.Menu>
         </Dropdown>
